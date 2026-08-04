@@ -1,0 +1,12 @@
+src/data
+src/utils/__pycache__
+*.pyc
+.DS_Store
+src/forward/data
+*.png
+*/data/
+*.pt
+data
+*.log
+*.json
+src/forward_forward.egg-info/
