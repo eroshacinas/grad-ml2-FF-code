@@ -1,0 +1,17 @@
+[project]
+name = "forward-forward"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.9",
+    "torch>=2.11.0",
+    "torchvision>=0.26.0",
+    "torchviz>=0.0.3",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/utils"]
+
