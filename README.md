@@ -61,7 +61,7 @@ To change **model depth/width**, edit `DenseNetConfig` in `src/baseline/model.py
 ```python
 hidden_dims: List[int] = field(default_factory=lambda: [500, 500, 500])
 # e.g. for a deeper model: [512, 512, 512, 512, 512]
-
+```
 
 
 ---
